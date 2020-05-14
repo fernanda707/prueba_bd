@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7FE84333-5F20-923E-5AAE-EA73E9105081" name="ESTUDIANTE">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>D523996D-1940-DDFD-8AF4-7972EA2CAEAB</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CURSO_id_curso" id="0352B70E-A704-7623-5D6C-3D18F7992F7F">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>8D6CC03B-6CD9-FE46-C768-83D04ADCB37B</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E638CC0E-696E-2F64-C520-130DC94C085C" referredColumn="506EB681-D1AE-D107-62C0-D864A2F088FC"/>
+</associations>
+</Column>
+<Column name="id_estudiante" id="5118BF7F-49DD-FAE7-5572-222A956BEF8F">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>1B8BD05A-0BDE-FB92-AC74-43B2F393203B</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="8642EF6F-0DEB-6585-095E-429B1E1BF9B6">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>D47D5554-FD54-5E0C-90A8-A68FF357389D</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B5CBC04C-0D35-5A25-CD98-CAA602D302D7">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>4980DC5E-C687-8380-0207-ECA4511D8F91</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="1919BDB0-1CB2-0769-D3CF-2FD8883C2D36">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>10D487EA-3D65-07FA-B38E-1CF37D650311</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88733E4C-075C-2E62-80A4-EBAFBF5ADCC2" name="ESTUDIANTE_PK">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>9CE21EFD-45F7-5538-5309-81BB37B4C33F</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5118BF7F-49DD-FAE7-5572-222A956BEF8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDD1495F-0CA2-D83A-E302-C700B92DC794" name="ESTUDIANTE_CURSO_FK">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>918AECC5-2056-C3C9-1D7B-1C6BBED382A9</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0352B70E-A704-7623-5D6C-3D18F7992F7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

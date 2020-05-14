@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44954901-7C18-00E1-7D9C-CDEDFDAF0538" name="TEST">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>DEBBF58B-268F-95C6-069D-D4E87DF66569</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_test" id="25D1B7A6-C55B-55FF-2A1A-09BD01C5BB6B">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>1B589AD8-99B8-0C69-D9C4-8167BE8DE888</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="ABFA315C-2C88-D44A-9FBA-513E78F7ECBC">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>03D8A95F-2F97-4031-1494-AF569E3F41E9</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="FD963FB1-3B68-35B6-0FF4-46DCDE403463">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>02D3D4FF-380C-DD50-5B0B-9ACE6589C3DF</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="programa" id="2D2D6E75-8FA2-3C50-E95A-DF8D79D1A4DE">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>588419E4-03D1-029E-3E20-D9A24118051A</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidad" id="6C4E4D9D-1A3A-C3BD-35C2-63041AB907C6">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>F5E0382D-C713-4A02-AA60-D8E717C1EFFD</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autor" id="47565D66-78FE-4A18-EEB9-5941DCF2A619">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>D11F7D55-F076-08D6-D670-4FFBC7032DA9</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="403468E9-9F8A-F239-DECF-33C33CF4A195">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>F380AEE1-84A2-4183-BC53-4DFDB04E5B0D</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A409CF9-DA8D-B9AB-BDBF-35C0B97650D5" name="TEST_PK">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>91813484-D293-FD3B-D71C-5E30935588C3</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25D1B7A6-C55B-55FF-2A1A-09BD01C5BB6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

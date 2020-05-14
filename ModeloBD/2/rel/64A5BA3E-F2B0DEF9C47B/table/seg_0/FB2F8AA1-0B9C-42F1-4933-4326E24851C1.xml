@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB2F8AA1-0B9C-42F1-4933-4326E24851C1" name="EVALUACION">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>4DA53F10-33A9-2225-3749-8D0DB42A8D4C</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESTUDIANTE_id_estudiante" id="D2DF3494-5369-C40B-554E-1A4A09B961C4">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>E86D727C-07B8-58B6-A503-BFAE37839A90</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="472E70CB-1D6F-B17F-8D0A-7E4519512709" referredColumn="5118BF7F-49DD-FAE7-5572-222A956BEF8F"/>
+</associations>
+</Column>
+<Column name="TEST_id_test" id="48B658DD-0656-3344-77BD-EC8237B7563A">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>F9E9816F-EC87-ABF0-2918-8293462C2E20</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8016330-30F8-1784-0AEF-92982DD947EE" referredColumn="25D1B7A6-C55B-55FF-2A1A-09BD01C5BB6B"/>
+</associations>
+</Column>
+<Column name="id_evaluacion" id="4B62933F-794D-850F-8F68-85F9A3E13199">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>BC19CE6E-A68A-EE89-713B-E1110B0510F8</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5A78A66-25DF-94C0-E6BE-A4686D867C4C" name="EVALUACION_PK">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>22C6BCAE-9D85-44D7-4A8C-4A22FFF17EA8</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B62933F-794D-850F-8F68-85F9A3E13199"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9660917-2C8F-585D-56FF-B3C89FB26A07" name="EVALUACION_ESTUDIANTE_FK">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>CADB69FF-A2FF-658D-8DD7-C046F80DFD8C</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2DF3494-5369-C40B-554E-1A4A09B961C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9D49B67-D148-9EE0-B8EA-0D5B21ABA26F" name="EVALUACION_TEST_FK">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>E8BAD798-0DB3-5FC7-25B4-5B53937C5F56</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48B658DD-0656-3344-77BD-EC8237B7563A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

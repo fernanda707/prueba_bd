@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99087ACB-8F30-A146-5D39-57BC0D734A90" name="ALTERNATIVA">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>08E54E4A-9EED-7DD0-90B0-E9F49B4FC74C</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PREGUNTA_id_pregunta" id="AFC14D36-E72E-0BE3-10F7-0EEFF6D2903B">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>015A8CF2-E0D4-FA6E-B761-E85DA8ADF93A</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F0B87C2-958A-6393-D0EA-E1C2C1D6F4BB" referredColumn="37CE2078-E1AA-1E18-450F-300081754569"/>
+</associations>
+</Column>
+<Column name="id_alternativa" id="08163404-A33F-025D-28A8-15162E60C9ED">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>46CF9DFB-22C8-E540-9016-A76E4CE4659A</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="83CBE888-4E82-BEEF-01BB-6A0AE5773DAA">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>7626D205-0B95-25C4-5904-F609F9745BEB</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alternativa_correcta" id="8E92BBB8-F960-7D74-2322-8EA24672A05C">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>EA629006-CCB3-9D5E-2D13-E7285D342B51</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porcentaje_correcto" id="5EC1973C-05C5-78E6-5A8E-0FE7FD96672A">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>58FA405C-3E9B-BDCA-A81A-5C8F0305EA8A</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AAA48A8-9A9D-67E7-D0E5-63F762C3CD0A" name="ALTERNATIVA_PK">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>26CF8BCE-C47B-1BE0-D5F5-98925726C6CF</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08163404-A33F-025D-28A8-15162E60C9ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EFEDE45-72B1-D9AD-2B20-6C96753C5903" name="ALTERNATIVA_PREGUNTA_FK">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>F8E3AAB8-0914-A861-2392-777C74A8C5FA</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFC14D36-E72E-0BE3-10F7-0EEFF6D2903B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

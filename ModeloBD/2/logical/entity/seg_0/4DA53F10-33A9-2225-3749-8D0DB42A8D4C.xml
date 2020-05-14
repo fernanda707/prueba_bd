@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DA53F10-33A9-2225-3749-8D0DB42A8D4C" name="EVALUACION">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-10 03:35:43 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="64A5BA3E-D165-E92B-D4EC-F2B0DEF9C47B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_estudiante" id="E86D727C-07B8-58B6-A503-BFAE37839A90">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-11 20:52:30 UTC</createdTime>
+<generatorID>CADB69FF-A2FF-658D-8DD7-C046F80DFD8C</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="64A5BA3E-D165-E92B-D4EC-F2B0DEF9C47B" value="true"/>
+</engineerTo>
+<referedAttribute>1B8BD05A-0BDE-FB92-AC74-43B2F393203B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_test" id="F9E9816F-EC87-ABF0-2918-8293462C2E20">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-11 20:56:38 UTC</createdTime>
+<generatorID>E8BAD798-0DB3-5FC7-25B4-5B53937C5F56</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="64A5BA3E-D165-E92B-D4EC-F2B0DEF9C47B" value="true"/>
+</engineerTo>
+<referedAttribute>1B589AD8-99B8-0C69-D9C4-8167BE8DE888</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_evaluacion" id="BC19CE6E-A68A-EE89-713B-E1110B0510F8">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-11 21:11:51 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="64A5BA3E-D165-E92B-D4EC-F2B0DEF9C47B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22C6BCAE-9D85-44D7-4A8C-4A22FFF17EA8" name="EVALUACION PK">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-11 21:12:15 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="64A5BA3E-D165-E92B-D4EC-F2B0DEF9C47B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC19CE6E-A68A-EE89-713B-E1110B0510F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41C7283F-9AA3-DA7F-955B-9D1C5295BAF0" name="RESPUESTA">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>9A7B434F-0C8A-A2D6-861D-89F8FBABF71E</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVALUACION_id_evaluacion" id="0E31D2AB-5160-C3BC-5855-07FAE2C0BAE8">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>F02E8902-24EE-CA01-0247-97A78E0F4392</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05D8C317-EAD6-B538-CCEB-23BCE5032DD4" referredColumn="4B62933F-794D-850F-8F68-85F9A3E13199"/>
+</associations>
+</Column>
+<Column name="ALTERNATIVA_id_alternativa" id="5D73B9DE-85FC-AF18-81EC-7DC8089A0124">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>013F0DC6-90DB-B503-84B4-0A85C93F7550</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA96E807-C650-D014-40B7-F2542F972E13" referredColumn="08163404-A33F-025D-28A8-15162E60C9ED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A530139-3DD8-E1ED-0F95-570CEDF49A99" name="RESPUESTA_ALTERNATIVA_FK">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>F72B5FA7-C75F-B738-EBDA-4B33DA14E222</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D73B9DE-85FC-AF18-81EC-7DC8089A0124"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CADFE73-0A6F-E625-178F-C3E81B1400E0" name="RESPUESTA_EVALUACION_FK">
+<createdBy>fer_n</createdBy>
+<createdTime>2020-05-12 23:30:12 UTC</createdTime>
+<generatorID>06562E03-F856-387D-0561-45DD4AEAC730</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E31D2AB-5160-C3BC-5855-07FAE2C0BAE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
